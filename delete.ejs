@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/deletestyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="text">
+            <h3>
+                Are you sure you want to delete <%=file%> ? Once deleted you wont be able to get this note back. By clicking on the below button you will be able to delete this note
+            </h3>
+        </div>
+        <a href="/deleting/<%= dir_name%>/<%=file%>"><button>I still want to DELETE this file</button></a>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 45px;
+    width: 100vw;
+    background-color:#99AEAD;
+    color: #283638;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#283638;
+
+}
+
+.main{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 3vw;
+    flex-wrap: wrap;
+    color: rgb(72, 72, 72);
+    padding:30px ;
+}
+
+.file{
+    height: 20vh;
+    width: 20vw;
+    background-color:#658b6f;
+    box-shadow:0px 0px 7px black ;
+    color:#283638;
+    border-radius: 0px;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    border-radius: 8px;
+}
+
+.create{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:none;
+ 
+}
+
+#create{
+    background-color: #99AEAD;
+    color:#283638;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0px 0px 7px black ;
+
+  
+}
+
+.file:hover{
+    background-color: #99AEAD;
+    transform: translateY(-12px);
+}
+
+.create:hover{
+    background-color: transparent;
+    transform: translateY(-12px);
+}
+
+.header{
+    color:#283638;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#appname{
+    color: #283638;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+a{
+    color: #283638;
+    text-decoration: none;
+    font-size: 20px;
+}

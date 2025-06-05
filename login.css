@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #283638;
+    color:white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 40vh;
+    width: 35vw;
+    background-color:#99AEAD;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding:40px ;
+    gap: 3vh;
+    color: #283638;
+}
+
+input{
+    background-color: transparent;
+    height: 25px;
+    width: 200px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #283638;
+    color: #283638;
+}
+
+input::placeholder{
+    color: #283638;
+}
+
+#submit{
+    background-color:#658b6f;
+    border: none;
+    color: #283638;
+}
+
+#submit:hover{
+    transform: translateY(-3px);
+    font-weight: 600;
+}

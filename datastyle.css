@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #283638;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height:fit-content;
+    min-width:40vw;
+    margin: 30px;
+    padding: 30px;
+    background-color: #99AEAD;
+    color: #283638;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#title{
+    background-color: #99AEAD;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+textarea{
+    resize:vertical;
+    min-height: 50px;
+    width: 30vw;
+    padding: 10px;
+    background-color: #283638;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15;
+
+}
+
+button{
+    color: #283638;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .2s;
+    background-color: rgb(48, 47, 47);
+    font-size: 14px;
+    width: 130px;
+    background-color: #658b6f;
+}
+
+#delete{
+    background-color: brown;
+    color: white;
+
+}
+
+button:hover{
+    transform: translateY(-5px);
+    color: #283638;
+    background-color: #283638;
+    color: white;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/mainpage.css">
+</head>
+<body>
+  <div class="part1">
+    <div class="header">
+        <div class="appname">
+            <h2 id="appname">Notify</h2>
+        </div>
+        <div class="right">
+            <h2><%= dir_name %></h2>
+            <div class="menu">
+            <a href="/">Logout</a>
+            </div>
+        </div>        
+    </div>
+   <div class="main">
+
+        <a href="/newnote/<%= dir_name%>">
+            <div class="file create">
+                <div id="create">
+                    <h4>Create New</h4>
+                </div>
+            </div>
+        </a>
+
+        <% if(files.length > 0){ %>
+            <% files.forEach(function(val){ %>
+                <a href="/notes/<%= dir_name%>/<%= val%>"><div class="file">
+                    <h4><%= val%></h4>
+                </div></a>
+            <% })} %> 
+
+   </div>
+  </div>
+</body>
+</html>
